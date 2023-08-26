@@ -1,0 +1,19 @@
+<!-- Type Question 1 Answer Below -->
+    <!DocType html>
+
+<!-- Type Question 2 Answer Below -->
+    differs from one browser to another
+
+<!-- Type Question 3 Answer Below -->
+    No ,but it's applicable
+
+<!-- Type Question 4 Answer Below -->
+    No
+
+<!-- Type Question 5 Answer Below -->
+    h1 : heading1
+    ..
+    ..
+    h6 : heading6
+
+    refers to a heirarical headers
