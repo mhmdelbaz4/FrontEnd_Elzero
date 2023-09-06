@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task2</title>
+</head>
+<body>
+
+    <form action="" method="get">
+        
+        <input type="hidden" name="token" value="b92f1fc2fce391ad7af633723afd3055">
+
+        <div>
+            <label >User Name</label><br>
+            <input type="text" name="userName" autofocus required
+                    minlength="5" maxlength="20">
+        </div>
+        <hr>
+        <div>
+            <label >Email</label><br>
+            <input type="email" name="email" value="o@o.com" readonly>
+            <br>
+        </div>
+        <hr>
+        
+        <label >Skills</label>
+
+        <div>            
+            <input type="checkbox" id="problemSolving" name="skill" value="ProblemSolving">
+            <label for="problemSolving">Problem Solving</label>
+        </div>
+        <div>            
+            <input type="checkbox" id="logicalThinking" name="skill" value="LogicalThinking" checked>
+            <label for="logicalThinking">Logical Thinking</label>
+        </div>
+        <div>            
+            <input type="checkbox" id="advancedSearch" name="skill" value="AdvancedSearch">
+            <label for="advancedSearch">Advanced Search</label>
+        </div>
+        <div>            
+            <input type="checkbox" id="analysis" name="skill" value="Analysisg">
+            <label for="analysis">Analysis</label>
+        </div>
+        <div>            
+            <input type="checkbox" id="planning" name="skill" value="planning">
+            <label for="planning">Planning</label>
+        </div>
+        <hr>    
+        <label >Job</label>
+        <div>
+            <input type="radio" name="job" id="Front-EndDeveloper" value="Front-EndDeveloper">
+            <label for="Front-EndDeveloper">Front-End Developer</label>
+        </div>
+        <div>
+            <input type="radio" name="job" id="Back-EndDeveloper" value="Back-EndDeveloper" checked>
+            <label for="Back-EndDeveloper">Back-End Developer</label>
+        </div>
+        <div>
+            <input type="radio" name="job" id="BusinessAnalyst" value="BusinessAnalyst">
+            <label for="BusinessAnalyst">Business Analyst</label>
+        </div>
+        <div>
+            <input type="radio" name="job" id="ProjectManager" value="ProjectManager">
+            <label for="ProjectManager">Project Manager</label>
+        </div>
+        <div>
+            <input type="radio" name="job" id="ScrumMaster" value="ScrumMaster">
+            <label for="ScrumMaster">Scrum Master</label>
+        </div>
+        <hr>
+        <div>
+            <input type="reset" value="Empty"><br><br>
+            <input type="submit" value="Send">
+        </div>
+
+    </form>
+    
+</body>
+</html>
