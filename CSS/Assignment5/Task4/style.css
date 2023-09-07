@@ -1,0 +1,13 @@
+body{
+    text-align: center;
+}
+a{
+    width: 40px;
+    display: inline-block;
+    background-color: rgb(70, 199, 167);
+    padding: 5px;
+    color: white;
+    text-transform: capitalize;
+    border-bottom:  3px solid rgb(9, 114, 88);
+    text-decoration: none;
+}
