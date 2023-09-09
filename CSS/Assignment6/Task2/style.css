@@ -1,0 +1,16 @@
+body{
+    text-align: center;
+}
+
+.one{
+    font-family: 'Open Sans', sans-serif;
+    font-style: italic;
+}
+
+.two{
+    font-family: 'Cairo', sans-serif;
+}
+
+.three{
+    font-family: 'Jomhuria', cursive;
+}
